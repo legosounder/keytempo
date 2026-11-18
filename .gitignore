@@ -1,0 +1,71 @@
+# Build and binary output
+build/
+cmake-build-debug/
+cmake-build-release/
+bin/
+out/
+*.o
+*.obj
+*.dylib
+*.so
+*.dll
+*.vst3
+*.component
+*.app
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.xcuserstate
+*.xcuserdatad
+*.suo
+*.user
+*.workspace
+*.sublime-project
+*.sublime-workspace
+
+# Secrets and environment files
+.env
+.env.*
+*.env
+client_secrets.json
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+
+# Large data, cache, media & downloads
+*.zip
+*.tar.*
+*.tar
+*.gz
+*.rar
+*.7z
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.ogg
+*.mp4
+*.mov
+*.avi
+downloads/
+cache/
+.cache/
+
+# AI agent artifacts, logs & state
+.gemini/
+.claude/
+.cursor/
+brain/
+*.log
